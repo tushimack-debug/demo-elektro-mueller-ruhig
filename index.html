@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elektriker in Erlangen | Elektro Müller GmbH</title>
+  <meta name="description" content="Elektro Müller GmbH in Erlangen: Elektroinstallation, Reparatur, Beleuchtung. Münchener Str. 47, Telefon 09131 20063.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23071018'/%3E%3Cpath d='M18 4 8 18h7l-2 10 11-16h-7l1-8z' fill='%23f5c400'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">
+  { "imports": { "three": "./vendor/three.module.min.js" } }
+  </script>
+  <script>
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      document.documentElement.classList.add("reduce");
+    }
+  </script>
+</head>
+<body>
+  <!-- Demo-Entwurf. Keine Meister-, Notdienst- oder Gründungsangaben. Festzulassung belegt über ESTW, dort Name Müller Elektro GmbH. -->
+  <a class="skip" href="#inhalt">Zum Inhalt springen</a>
+  <div class="progress" aria-hidden="true"></div>
+  <canvas id="webgl" aria-hidden="true"></canvas>
+  <div class="canvas-fade" aria-hidden="true"></div>
+  <div class="demo-banner">Demo-Entwurf von Tom Mack · Inhalte beispielhaft, werden mit Ihnen abgestimmt</div>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#inhalt">
+        <span class="bolt" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4 14h7l-1 8 10-14h-7l0-6z"/></svg>
+        </span>
+        <span class="brand-text">
+          <strong>Elektro Müller GmbH</strong>
+          <span>Elektriker · Erlangen</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
+        <span class="visually-hidden">Menü</span>
+        <span class="burger" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="nav" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#betrieb">Betrieb</a></li>
+          <li><a href="#zeiten">Zeiten</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-primary nav-cta" href="tel:+49913120063">Anrufen</a>
+    </div>
+  </header>
+
+  <main class="page" id="inhalt">
+    <section class="hero">
+      <div class="bulb-slot" aria-hidden="true"></div>
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Erlangen-Innenstadt</p>
+          <h1>Elektriker in Erlangen.</h1>
+          <p class="lede">Ob neue Leitung, ein Licht, das nicht mehr will, oder ein Anschluss, der fehlt: Sie erreichen Elektro Müller direkt in der Münchener Straße. Wir schauen hin und sagen Ihnen klar, was zu tun ist.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="tel:+49913120063">Anrufen</a>
+            <a class="btn btn-ghost" href="#kontakt">Nachricht schreiben</a>
+          </div>
+          <aside class="panel" aria-label="Telefon">
+            <p class="kicker">Rufen Sie uns an</p>
+            <a class="phone" href="tel:+49913120063">09131 20063</a>
+            <p>Münchener Str. 47, 91054 Erlangen</p>
+          </aside>
+          <!-- PLATZHALTER: Festzulassung belegt. Die anderen Nutzenformulierungen sind allgemein, keine gemessenen Versprechen. -->
+          <ul class="trust">
+            <li><strong>Direkt in Erlangen</strong> Innenstadt, Münchener Straße</li>
+            <li><strong>Festzulassung</strong> bei den Erlanger Stadtwerken</li>
+            <li><strong>Persönlich</strong> ein Ansprechpartner für Ihr Anliegen</li>
+            <li><strong>Rückmeldung</strong> wir melden uns zeitnah bei Ihnen</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="leistungen">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Leistungen</h2>
+          <p>Das typische Spektrum eines Elektrikers vor Ort. Wir stimmen mit Ihnen ab, was Sie konkret brauchen.</p>
+        </div>
+        <!-- PLATZHALTER: Leistungen beispielhaft. Kein E-Check, kein 24-Stunden-Notdienst. -->
+        <div class="cards">
+          <article class="card reveal">
+            <div class="ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4 14h7l-1 8 10-14h-7z"/></svg></div>
+            <h3>Elektroinstallation</h3>
+            <p>Leitungen, Dosen und Verteiler in Wohnung, Haus und kleinem Gewerbe. Sauber verlegt und so angeschlossen, dass es hinterher einfach funktioniert.</p>
+          </article>
+          <article class="card reveal">
+            <div class="ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 7l3 3-8 8H6v-3l8-8z"/></svg></div>
+            <h3>Reparaturen</h3>
+            <p>Eine Steckdose ist tot, ein Schalter klemmt, die Sicherung fliegt. Wir kommen vorbei, finden die Ursache und setzen es instand.</p>
+          </article>
+          <article class="card reveal">
+            <div class="ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12c.6.7 1 1.6 1 2h6c0-.4.4-1.3 1-2a7 7 0 0 0-4-12z"/></svg></div>
+            <h3>Beleuchtung</h3>
+            <p>Licht für Wohnraum, Flur, Treppenhaus oder Laden. Wir setzen um, was zum Raum und zu Ihrem Alltag passt.</p>
+          </article>
+          <article class="card reveal">
+            <div class="ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 10h7V4H4v6zM13 20h7v-8h-7v8zM13 10h7V4h-7v6zM4 20h7v-8H4v8z"/></svg></div>
+            <h3>Smart Home</h3>
+            <p>Licht, Rollladen oder Heizung bequemer schalten. Wir richten ein, was Sie wirklich nutzen möchten, ohne die Wohnung zu überfrachten.</p>
+          </article>
+          <article class="card reveal">
+            <div class="ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 16V7a2 2 0 0 1 2-2h2"/><rect x="13" y="7" width="6" height="10" rx="1"/><path d="M3 17h18"/></svg></div>
+            <h3>Wallbox</h3>
+            <p>Ein Ladepunkt zu Hause oder am Betrieb. Wir prüfen den Anschluss und setzen die Wallbox passend dazu.</p>
+          </article>
+          <article class="card reveal">
+            <div class="ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+            <h3>Prüfung elektrischer Anlagen</h3>
+            <p>Wir sehen uns die Anlage an und sagen Ihnen verständlich, was in Ordnung ist und wo etwas nachzuziehen ist.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="betrieb">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Der Betrieb</h2>
+          <p>Ein Elektriker in der Erlanger Innenstadt. Kurze Wege, klare Absprachen.</p>
+        </div>
+        <div class="about">
+          <div class="box reveal">
+            <!-- PLATZHALTER: kein Inhabername, kein Gründungsjahr. -->
+            <p class="pull">Sie rufen an, schildern den Fall, und wir kümmern uns darum.</p>
+            <p>Elektro Müller GmbH arbeitet an der Elektrik in Wohnungen und Häusern in Erlangen. Installation, Reparatur, Licht und neue Anschlüsse: Sie haben eine feste Adresse in der Innenstadt und jemanden, der sich die Sache ansieht.</p>
+            <p>Schildern Sie uns am Telefon, worum es geht. Dann sagen wir Ihnen, wie es weitergeht.</p>
+          </div>
+          <aside class="box reveal">
+            <dl class="dl">
+              <div><dt>Anschrift</dt><dd>Münchener Str. 47<br>91054 Erlangen</dd></div>
+              <div><dt>Telefon</dt><dd><a href="tel:+49913120063">09131 20063</a></dd></div>
+              <div><dt>Fax</dt><dd>09131 29123</dd></div>
+              <div><dt>E-Mail</dt><dd><a href="mailto:elektro-mueller-gmbh@t-online.de">elektro-mueller-gmbh@t-online.de</a></dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="zeiten">
+      <div class="wrap split">
+        <div class="box reveal">
+          <h2>Öffnungszeiten</h2>
+          <!-- PLATZHALTER: konkrete Zeiten unbekannt. -->
+          <p class="hours-note">Termine nach Vereinbarung – rufen Sie uns an</p>
+          <p>Sagen Sie uns kurz, was ansteht. Wir finden einen Termin, der passt.</p>
+          <p><a class="btn btn-primary" href="tel:+49913120063">Jetzt anrufen</a></p>
+        </div>
+        <div class="box reveal" id="kontakt">
+          <h2>Nachricht</h2>
+          <p>Schreiben Sie uns, worum es geht. Ihre Nachricht öffnet sich in Ihrem E-Mail-Programm.</p>
+          <form id="kontakt-form">
+            <label>Name <input name="name" type="text" autocomplete="name" required></label>
+            <label>Telefon <input name="telefon" type="tel" autocomplete="tel"></label>
+            <label>E-Mail <input name="email" type="email" autocomplete="email"></label>
+            <label>Nachricht <textarea name="nachricht" required></textarea></label>
+            <label class="check"><input type="checkbox" required> <span>Ich habe den Hinweis zum <a href="datenschutz.html">Datenschutz</a> gelesen.</span></label>
+            <button class="btn btn-primary" type="submit">Nachricht senden</button>
+            <p class="form-status" id="form-status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="karte-titel">
+      <div class="wrap">
+        <h2 id="karte-titel" class="reveal">So finden Sie uns</h2>
+        <div class="map-hold reveal" id="map-hold">
+          <div>
+            <p>Münchener Str. 47, 91054 Erlangen. Die Karte wird erst geladen, wenn Sie das möchten.</p>
+            <button class="btn btn-primary" type="button" id="map-load">Karte anzeigen</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h2>Elektro Müller GmbH</h2>
+        <p>Münchener Str. 47<br>91054 Erlangen</p>
+        <p><a href="tel:+49913120063">09131 20063</a></p>
+      </div>
+      <div>
+        <p><a href="mailto:elektro-mueller-gmbh@t-online.de">elektro-mueller-gmbh@t-online.de</a></p>
+        <p>Fax 09131 29123</p>
+        <div class="legal-links">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap fine"><p>© <span data-year>2026</span> Elektro Müller GmbH · Erlangen</p></div>
+  </footer>
+  <a class="call-dock btn btn-primary" href="tel:+49913120063">Anrufen · 09131 20063</a>
+  <!-- PLATZHALTER: facebook.com/ElektroMuellerGmbh gehört zum Wolfsburger Betrieb, kein Link. -->
+  <script type="module" src="scene.js"></script>
+</body>
+</html>

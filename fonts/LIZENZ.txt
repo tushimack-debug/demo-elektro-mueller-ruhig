@@ -1,0 +1,1 @@
+Fraunces und Source Sans 3 stehen unter der SIL Open Font License 1.1. Die Schriftdateien liegen lokal in diesem Ordner und werden nicht von einem CDN geladen.
